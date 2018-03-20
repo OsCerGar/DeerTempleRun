@@ -44,6 +44,7 @@ GameObject:
   - component: {fileID: 3380038}
   - component: {fileID: 2380038}
   - component: {fileID: 6580038}
+  - component: {fileID: 114444829363052566}
   m_Layer: 0
   m_Name: Ground
   m_TagString: Untagged
@@ -197,6 +198,17 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 180034}
   m_IsPrefabParent: 1
+--- !u!114 &114444829363052566
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 180038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4ca1d7ef070d0a4fa2d3718be5b07b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114813665780462124
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -208,3 +220,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b37657f191f1fe4ca1d66e7cb7b5559, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Destroy: 0
+  bridge: 0

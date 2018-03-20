@@ -14,6 +14,7 @@ public class RoadManager : MonoBehaviour {
     [SerializeField]
     float distTile;
     float roadPos = 0;
+
 	// Use this for initialization
 	void Start () {
         for (int i = 0; i < 8; i++)

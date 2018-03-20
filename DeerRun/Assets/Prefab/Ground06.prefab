@@ -44,6 +44,7 @@ GameObject:
   - component: {fileID: 3393878}
   - component: {fileID: 2393878}
   - component: {fileID: 6593878}
+  - component: {fileID: 114424608726763764}
   m_Layer: 0
   m_Name: Ground
   m_TagString: Untagged
@@ -367,6 +368,17 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.2700584, y: 0.72, z: 0.2358189}
   m_Center: {x: -0.000000029802322, y: 1.02, z: -0.0000000037252903}
+--- !u!114 &114424608726763764
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 193878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4ca1d7ef070d0a4fa2d3718be5b07b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114526508990887506
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -378,3 +390,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b37657f191f1fe4ca1d66e7cb7b5559, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Destroy: 0
+  bridge: 0

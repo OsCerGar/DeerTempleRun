@@ -27,6 +27,7 @@ GameObject:
   - component: {fileID: 3314596}
   - component: {fileID: 2314596}
   - component: {fileID: 6514598}
+  - component: {fileID: 114684867516634364}
   m_Layer: 0
   m_Name: Bridge
   m_TagString: Untagged
@@ -466,4 +467,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b37657f191f1fe4ca1d66e7cb7b5559, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Destroy: 0
   bridge: 1
+--- !u!114 &114684867516634364
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 114596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4ca1d7ef070d0a4fa2d3718be5b07b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

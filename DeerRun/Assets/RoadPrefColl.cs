@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class RoadPrefColl : MonoBehaviour {
-    private bool Destroy = false;
+    public bool Destroy = false;
     RoadManager RM;
     public bool bridge;
 
@@ -11,13 +11,7 @@ public class RoadPrefColl : MonoBehaviour {
     {
         RM = FindObjectOfType<RoadManager>();
     }
-    private void OnCollisionExit(Collision collision)
-    {
-        if (collision.transform.tag == "Player")
-        {
-            Destroy = true;
-        }
-    }
+
     private void FixedUpdate()
     {
         if (Destroy)
@@ -28,7 +22,7 @@ public class RoadPrefColl : MonoBehaviour {
 
     IEnumerator DestroyAndCreate()
     {
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(0.5f);
         RM.AddTile();
         print("Nuevo Tile Creado");
         Destroy(transform.gameObject);
