@@ -28,7 +28,7 @@ public class CameraMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (moveSpeed < 15)
+        if (moveSpeed < 10)
         {
             moveSpeed += Time.deltaTime * 0.5f;
 

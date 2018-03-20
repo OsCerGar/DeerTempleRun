@@ -22,7 +22,7 @@ public class RoadPrefColl : MonoBehaviour {
 
     IEnumerator DestroyAndCreate()
     {
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.3f);
         RM.AddTile();
         print("Nuevo Tile Creado");
         Destroy(transform.gameObject);
